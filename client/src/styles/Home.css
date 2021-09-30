@@ -1,0 +1,53 @@
+ .div-home {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color:rgba(211, 211, 211, 0.453);
+    width: 320px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: cursive;
+    padding:10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    align-items: center;
+} 
+
+.logo {
+    background-image: url(../imagenes/bb.png);
+    padding-left: 400px;
+    padding-top: 400px;
+} 
+
+ .background {
+    background-image: url(../imagenes/fondoReal.png);
+}
+
+.header {
+    width: 1500px;
+    height: 100px;
+    background-color: rgb(230, 102, 102);
+}   
+
+.search {
+    padding-left: 560px;
+}
+
+
+
+.options {
+    padding-left: 510px;
+} */
+
+.align {
+    display: inline-block;
+}
+.paginado {
+    display: inline-block;
+} 
