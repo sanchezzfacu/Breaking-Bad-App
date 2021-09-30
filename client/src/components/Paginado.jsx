@@ -12,7 +12,7 @@ export default function Paginado({charactersPerPage, allCharacters, paginado}) {
                    {
                     pageNumbers?.map( number => 
                         <li>
-                            <a href onClick={() => paginado(number)}>{number}</a>
+                            <a href onClick={() => paginado(number)}><button className="btn_paginado">{number}</button></a>
                         </li>
                     )
                     }

@@ -1,5 +1,22 @@
-.background {
-    background-image: url(../imagenes/bb.png);
-    height: 500px;
-    width: 150px;
+.link_landing {
+    color:#ffff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.landing_btn {
+    padding: 10px 10px;
+    background-color: #0d3e10d4;
+}
+
+.landing_btn:hover{
+    background-color: #135717d4;
+
+}
+
+.font {
+    font-size: 30px;
 }

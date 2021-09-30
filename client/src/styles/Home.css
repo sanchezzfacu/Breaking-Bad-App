@@ -1,53 +1,99 @@
- .div-home {
-    width: 100%;
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-image: url(../imagenes//breakingbad.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+nav {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #032202;
+    height: 80px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+.crear_personaje {
+    color: #ffff;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    justify-content:baseline;
+}
+
+.card_description {
+    text-decoration: none;
+}
+
+button, select {
+    cursor: pointer;
+}
+
+.card_container {
+    display:flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .card {
-    background-color:rgba(211, 211, 211, 0.453);
-    width: 320px;
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family: cursive;
-    padding:10px;
-    border: 1px solid #000;
-    border-radius: 10px;
-    align-items: center;
-} 
-
-.logo {
-    background-image: url(../imagenes/bb.png);
-    padding-left: 400px;
-    padding-top: 400px;
-} 
-
- .background {
-    background-image: url(../imagenes/fondoReal.png);
+    background-color: #0d3e10d4;
+    width: 250px;
+    margin: 20px;
+    height: 450px;
+    border-radius: 3px;
+    color: #ffff;
+    box-shadow: 2px 2px 5px #000;
 }
 
-.header {
-    width: 1500px;
-    height: 100px;
-    background-color: rgb(230, 102, 102);
-}   
-
-.search {
-    padding-left: 560px;
+input {
+    outline: none;
+    border: none;
+    height: 20px;
 }
 
-
-
-.options {
-    padding-left: 510px;
-} */
-
-.align {
-    display: inline-block;
+input:focus{
+    border: none;
 }
-.paginado {
-    display: inline-block;
-} 
+
+.img_card {
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #1F6032;
+    color: #ffff;
+    border: none;
+    height: 25px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+button:hover {
+    background-color: #29773E;
+}
+
+select:focus {
+    border: none;
+    outline: none;
+}
+
+.btn_paginado:focus {
+    background-color: #0d440b;
+}
